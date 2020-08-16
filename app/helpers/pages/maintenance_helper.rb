@@ -1,0 +1,2 @@
+module Pages::MaintenanceHelper
+end
