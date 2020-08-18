@@ -16,9 +16,9 @@ Rails.application.routes.draw do
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-  #root to: 'pages/maintenance#index'
+  root to: 'pages/maintenance#index'
   
-  root to: 'pages/dashboard#index'
+  #root to: 'pages/dashboard#index'
   get '/home' => 'pages/dashboard#index'
   get '/curriculum' => 'pages/welcome#index'
   get '/portfolio' => 'pages/job#index'
