@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Daniel DJAM | DEVELOPER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="lmpixels" />
+
+  
+  </head>
+
+  <body class="page">
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+      
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item current-menu-item">
+                    <%= link_to 'Home', '/home' , class: 'menu-item current-menu-item'%>
+                </li>
+                
+                
+                <li class="menu-item">
+                  <%= link_to 'Curriculum', '/curriculum' , class: 'menu-item'%>
+                </li>
+
+                <li class="menu-item ">
+                  <%= link_to 'Portfolio', '/portfolio' , class: 'menu-item'%>
+              
+                </li>
+                
+                <li class="menu-item ">
+                   <%= link_to 'Blog', '/blog' , class: 'menu-item'%>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#">Contato</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"> = </i>
+            </a>
+            <!-- Mobile Menu Toggle -->
+          </div>
+        </header>
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+
+              <div class="page-title">
+                <h1>Portfolio</h1>
+                <div class="page-subtitle">
+                    <h4> Meus Ultimos Trabalhos</h4>
+                </div>
+              </div>
+
+              <div id="content" class="page-content site-content single-post" role="main">
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <!-- Portfolio Content -->
+                    <div id="portfolio_content_q" class="portfolio-content">
+
+                      <ul class="portfolio-filters">
+                        <li class="active">
+                          <a class="filter btn btn-sm btn-link" data-group="category_all">TODOS</a>
+                        </li>
+                    
+                      </ul>
+      
+      
+                      <!-- Portfolio Grid -->
+                      <div class="portfolio-grid three-columns shuffle">
+
+                        <!-- Portfolio Item 1 -->
+                        <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                          <div class="portfolio-item-img">
+                            <%= image_tag('eu.jpeg')%>
+                            <a href="#" class="ajax-page-load"></a>
+                          </div>
+
+                          <i class="far fa-file-alt"></i>
+                          <h4 class="name">RubyOnRails</h4>
+                          <span class="category">Consumo de WSDL</span>
+                        </figure>
+                        <!-- /Portfolio Item 1 -->
+
+                        <!-- Portfolio Item 2 -->
+                        <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
+                            <div class="portfolio-item-img">
+                              <%= image_tag('eu.jpeg', class: 'lightbox mfp-iframe')%>
+                              <a href="#" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="fab fa-youtube"></i>
+                            <h4 class="name">RubyOnRails</h4>
+                            <span class="category">Consumo de REST/FUL</span>
+                        </figure>
+                        <!-- /Portfolio Item 2 -->
+
+                        <!-- Portfolio Item 3 -->
+                        <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
+                          <div class="portfolio-item-img">
+                            <%= image_tag('eu.jpeg')%>
+                            <a class="lightbox" title="Image 2" href="#"></a>
+                          </div>
+
+                          <i class="fa fa-image"></i>
+                          <h4 class="name">RubyOnRails</h4>
+                          <span class="category">Webpack</span>
+                        </figure>
+                        <!-- /Portfolio Item 3 -->
+
+                        
+                      </div>
+                      <!-- /Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+
+
+  </body>
+</html>
+
